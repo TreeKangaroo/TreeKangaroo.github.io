@@ -1405,24 +1405,6 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 		font-style: italic;
 	}
-	.type {
-  		display:inline-flex;
-		}
-	.type span {
-		word-break: break-all;
-		height: 1.2em;
-		width:0%;
-		overflow: hidden;
-		animation:t 2s linear infinite alternate;
-		}
-	.type span:before {
-		content:" ";
-		display:inline-block;
-		}
-	@keyframes t{
-		90%,100% {width:100%}
-		}
-
 	em, i {
 		font-style: italic;
 	}
@@ -1561,7 +1543,29 @@ input, select, textarea {
 
 		}
 
-/* Image */
+	.type {
+			display:inline-flex;
+		  }
+	.type span {
+		  word-break: break-all;
+		  height: 1.2em;
+		  width:0%;
+		  overflow: hidden;
+		  animation:t 2s linear infinite alternate, c 0.5s infinite steps(1),  ;
+		  }
+    .type span:before {
+		  content:" ";
+		  display:inline-block;
+		  }
+	    @keyframes t{
+		  90%,100% {width:100%}
+		  }
+	    @keyframes c{
+			0%,100%{box-shadow:5px 0 0 #0000}
+			50%    {box-shadow:5px 0 0 red  }
+		  }
+  
+		/* Image */
 
 	.image {
 		display: inline-block;
