@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michelle Wang</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Michelle Wang</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2024 13:14:14 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/resume.pdf</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume.pdf</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Other interests</title>
+      <link>http://localhost:1313/other/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/other/</guid>
+      <description>Assistive Technology: Disability is an issue near to my heart. At MIT, I am the Business Lead for the Assistive Tech Club and working on a feeding robot for users with limited upper-limb mobility. I&amp;rsquo;ve really enjoyed working with different people and building community partnerships.&#xA;STEM Education/Accessibility: Growing up in rural southern Illinois taught me that STEM education is not accessible everywhere. In high school, I led coding/robotics workshops with 4-H around my area and at state-wide 4-H events, reaching over 250 kids and raising &amp;gt;$3000 to support hands-on activities.</description>
+    </item>
+    <item>
+      <title>Assistive Feeding Device</title>
+      <link>http://localhost:1313/projects/at/</link>
+      <pubDate>Mon, 01 Jul 2024 13:14:14 -0500</pubDate>
+      <guid>http://localhost:1313/projects/at/</guid>
+      <description>some words </description>
+    </item>
+    <item>
+      <title>UROP</title>
+      <link>http://localhost:1313/projects/urop/</link>
+      <pubDate>Mon, 01 Jul 2024 13:14:14 -0500</pubDate>
+      <guid>http://localhost:1313/projects/urop/</guid>
+      <description>Hi this is a test bump bump</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/updates/</guid>
+      <description>Updates 6/3/2024: Off to Fargo, ND for the summer! Interning at John Deere&amp;rsquo;s Intelligent Solutions Group &amp;#x1f69c;&#xA;1/8/2024: Started undergraduate research (UROP) in Improbable AI Lab at MIT CSAIL</description>
+    </item>
+  </channel>
+</rss>

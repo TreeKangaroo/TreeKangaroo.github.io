@@ -1,0 +1,19 @@
+
+{{ define "main" }}
+<div class="landing-page-wrapper">
+    <div class="landing-page-content">
+        <div>
+            {{ .Content | safeHTML }}
+        </div>
+    </div>
+    <div class="landing-page-image">
+        <img src="{{ .Params.image }}" alt="{{ .Site.Params.header.title }}" width="221" height="331">
+    </div>
+    <div class="'landing-page-updates"> 
+        <!-- {{ with (.Resources.GetMatch "/updates")}}
+            {{.Content | safeHTML }}
+        {{end}} -->
+        {{ (.Site.GetPage "/updates").Content | safeHTML }}
+    </div>
+</div>
+{{ end }}
